@@ -6,7 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\css\materialize.css" />
+    <None Include="wwwroot\css\materialize.min.css" />
+    <None Include="wwwroot\js\materialize.js" />
+    <None Include="wwwroot\js\materialize.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
 </Project>
